@@ -5,8 +5,8 @@
 1. Clone the repo
 
 ```
-git clone git@github.com:tender-cc/livingstone.git
-cd livingstone
+git clone git@github.com:tender-cc/tech-lead-case.git
+cd tech-lead-case
 npm install
 ```
 
@@ -34,3 +34,4 @@ Warning : this codebase is incomplete (some files were plainly copy/pasted from 
 ## Tools & libraries used in the project
 - We use [Mantine v6](https://v6.mantine.dev/) as a UI component library (DX similar to Material UI)
 - We use [Tanstack Query](https://tanstack.com/query/) to handle asynchronous state 
+- We use [Vite](https://vite.dev/) to build the app

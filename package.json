@@ -1,5 +1,5 @@
 {
-  "name": "livingstone",
+  "name": "tech-lead-case",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,8 +17,6 @@
     "knip": "knip --tags=-knipignore",
     "format": "prettier --ignore-path .gitignore --write .",
     "format:check": "prettier --ignore-path .gitignore --list-different .",
-    "dev:create-ui": "node scripts/create-ui-component.js",
-    "dev:create-i18n-namespace": "node scripts/create-i18n-namespace.js",
     "locales:watch": "chokidar 'src/shared/locales/**' -c 'npm run locales:sync && npm run locales:generate-types'",
     "locales:generate-types": "i18next-resources-for-ts interface -i src/shared/locales/fr -o src/@types/resources.d.ts",
     "locales:sync": "i18next-locales-sync -c ./localesSync.config.ts"
