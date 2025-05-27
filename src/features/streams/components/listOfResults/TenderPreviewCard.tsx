@@ -18,7 +18,7 @@ import { formatCurrency } from '../../../../shared/utils/format';
 import { formatExecutionLocation } from '../../../../shared/utils/location';
 import { capitalizeFirstLetter } from '../../../../shared/utils/strings';
 import CardCorner from '../../assets/card_corner.svg';
-import type { TenderWithTransition } from '../forms/hooks/useSearchTenders.hook';
+import type { TenderWithTransition } from '../hooks/useSearchTenders.hook';
 import { LotsPreview } from './LotsPreview';
 import { TenderPreviewCardActionElement } from './PreviewCardActionElement';
 import { TenderDataDisplay } from './TenderDataDisplay';

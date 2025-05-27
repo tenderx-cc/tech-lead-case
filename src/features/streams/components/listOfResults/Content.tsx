@@ -13,7 +13,7 @@ import {
   type StatusType,
   upsertDecision,
 } from '../../../../shared/utils/upsertDecision';
-import { useSearchTenders } from '../forms/hooks/useSearchTenders.hook';
+import { useSearchTenders } from '../hooks/useSearchTenders.hook';
 import { EmptyStreamList } from './EmptyStreamList';
 import { TenderPreviewCard } from './TenderPreviewCard';
 
